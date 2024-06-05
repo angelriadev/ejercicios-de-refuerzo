@@ -1,0 +1,44 @@
+* {
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #800080;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.articles {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  background-color: #00ffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 32%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .article {
+    width: 49%;
+  }
+}
+
+@media (max-width: 480px) {
+  .article {
+    width: 100%;
+  }
+}
